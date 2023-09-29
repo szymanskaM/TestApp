@@ -1,0 +1,47 @@
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>TestIT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="registerPanel.css">
+    <link rel="stylesheet" type="text/css" href="loginPanel.css">
+</head>
+<body>
+		<header>
+			<div class="menu">
+				<div class="log"><img src="logi.png" alt="Logo" width=200></div>
+				<nav>
+					<div>
+						<ul>
+							<li class="guzikiM"><a>Logowanie</a></li>
+							<li class="guzikiM"><a>Rejestracja</a></li>
+							<li><a href="#"><div class="menuMini" onclick="openNav()"><div class="ikonaM"></div><div class="ikonaM"></div><div class="ikonaM"></div></div></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+	<div class="root">
+        <div class="left">
+            <img src="login.png" alt="manage process" width="100%">       
+        </div>
+        <div class="right">
+            <div class="formLog">
+                <h1>Logowanie</h1>
+                <img src="user.png" height="25%">
+                <br>
+                <form>
+                    <label><b>E-mail</b></label>
+                    <input type="text" placeholder="e-mail" id="emailReg" required>
+                    <label><b>Hasło</b></label>
+                    <input type="password" placeholder="password" id="pswReg" required>
+                    <button class="button2" id="saveUserBtn">Zaloguj się</button>
+                </form>
+                <p>Nie masz jeszcze konta?<br><a href="#">Zarejestruj się</a></p>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
